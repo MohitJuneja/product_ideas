@@ -1,0 +1,10 @@
+Category: Marketing
+Problem: How to bucket dollars on customer search terms. How to optimize?
+
+Solution: 
+Feature1: Find the most important search terms and auto generate more of those similar search terms. (Iterative process)
+          Step1: Random Forest from the tabular click stream data optimzed for click through rate. 
+          Step2: For the winner search terms for specific days of the week (and time of the day), find the most similar such as print(model_ted.wv.most_similar("coffee"))
+          Step3: Rinse and repeat.
+Validation Criterion: Uplift or increase in CTR.
+Business Model: Charge the business a portion (1%) of uplift or free usage.
