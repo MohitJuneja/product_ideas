@@ -1,3 +1,4 @@
+Idea#1
 Category: Marketing
 Problem: How to bucket dollars on customer search terms. How to optimize?
 
@@ -8,3 +9,17 @@ Feature1: Find the most important search terms and auto generate more of those s
           Step3: Rinse and repeat.
 Validation Criterion: Uplift or increase in CTR.
 Business Model: Charge the business a portion (1%) of uplift or free usage.
+
+
+Idea#2
+Category: Content Marketing
+Problem: How do SMB (majority of blog writers) create click bait headlines from existing content?
+Assumption: Content marketing works heavily due to click-bait headlines (e.g., NYT, Washington Post etc.) 
+
+Solution: 
+Feature1: Train the language model / headline generator on clik bait dataset (kaggle).
+          Step1: Train a pointer-generator summary (abstractive and extractive). 
+          Step2: Create a N word summary for existing content.
+          Step3: Style transfer the click bait on the new summary as headline.
+Validation Criterion: Bounce Rate
+Business Model: Charge the business a monthly fee (kicks off in 3rd month iff bounce rate reduces).
