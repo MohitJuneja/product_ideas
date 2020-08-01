@@ -26,7 +26,7 @@ Validation Criterion: Bounce Rate
 Business Model: Charge the business a monthly fee (kicks off in 3rd month iff bounce rate reduces).
 
 
-Idea#3
+Idea#3 (NLPD - Natural Language to predict Prob. of Default)
 Category: Productivity
 Problem: How to make the bookmarks searchable for content?
 Assumption: Users want a better way to manage and search their bookmarks - an interface with summary > details and meaningful (semantic) search 
@@ -38,3 +38,22 @@ Feature1: Chrome extension to extract the test of each new bookmark, transform i
           Step3: Make it semantic searchable content
 Validation Criterion: Usage and referrals. Fremium model.
 Business Model: first 20 bookmarks free. Then refer 5 friends and after they enroll, get another free month. $10 per month.
+
+
+
+Idea#4
+Category: Fintech
+Problem: How to incorporate management sentiments into credit analytics?
+Assumption: Asset Managers such as Blackrock etc. do not have any actionable insights from quarterly and annual filings such as 10K about management sentiment.
+
+Solution: Provide a sentiment score feed to Multi Asset Firms.
+          Step1: Parse 10K schedules
+          Step2: Create embeddings for each sentence.
+          Step3: Get a dictionary of debt and asset related sentences; 
+          Step4: Create clusters
+          Step5: Use NLI to separate the negative sentiments only.
+          Step6: Weight each of the filiing report w.r.t. earlier defaulted company as baseline score. 
+          Step7: Create a dashboard to test and show the pipeline.
+          Step8: Generate API for other companies to subscribe to this feed.
+Validation Criterion: Check if any multi asset mgr is ready to pay for it. 
+Business Model: Volume based.
